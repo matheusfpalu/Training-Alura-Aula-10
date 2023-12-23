@@ -1,0 +1,57 @@
+body {
+  background-color: #7200CE;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.container {
+  text-align: center;
+}
+
+section {
+  -webkit-box-shadow: 0px 0px 50px 5px #000000; 
+  box-shadow: 0px 0px 50px 5px #000000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 20px;
+}
+
+section li {
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+header {
+  background-image: url('https://previews.123rf.com/images/dr911/dr9111509/dr911150900009/45074075-creative-blue-gears-background-.jpg');
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+  padding: 15px;
+  border: 1px solid black;
+  /*propriedade visual: valor*/
+  background-color: #bac3d6;
+  border-radius: 5px;
+}
+
+img {
+  width: 150px;
+  heigth: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50%);
+  border: 8px solid white;
+}
